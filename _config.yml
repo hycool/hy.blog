@@ -20,4 +20,4 @@ github_username:  hycool
 # Build settings
 markdown: kramdown
 #gems: ['jekyll-github-metadata']
-#repository: hycool/hy.blog
+repository: hycool/hy.blog
