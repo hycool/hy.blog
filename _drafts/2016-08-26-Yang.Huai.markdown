@@ -1,0 +1,16 @@
+---
+layout: archive
+title:  "Yang.Huai's Test Model"
+date:   2016-08-26
+author: hycool
+category: category
+categories: categories1 categories2
+permalink: huaiyang
+---
+
+page.date={{page.date}}<br/>
+page.categories={{page.categories}}<br/>
+page.category={{page.category}}<br/>
+page.permalink={{page.permalink }}<br/>
+page.author={{page.author}}<br/>
+
