@@ -10,8 +10,8 @@ en: &DEFAULT_EN
   breadcrumb_separator       : "/"
   toc_label                  : "On This Page"
   ext_link_label             : "Direct Link"
-  less_than                  : "less than"
-  minute_read                : "minute read"
+  less_than                  : "最近一次浏览大约在"
+  minute_read                : "分钟前"
   share_on_label             : "分享到"
   meta_label                 :
   tags_label                 : "标签:"
