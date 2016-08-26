@@ -2,7 +2,7 @@
 title:  "Windows环境下使用Jekyll发布GitHub Pages"
 date:   2016-08-09
 author: hycool
-categories: github page jekyll windows
+<!--categories: github page jekyll windows-->
 ---
 
 ## 前言
