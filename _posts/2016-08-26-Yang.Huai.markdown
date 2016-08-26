@@ -1,11 +1,11 @@
 ---
-layout: archive
 title:  "Yang.Huai's Test Model"
 date:   2016-08-26
 author: hycool
 category: category
 categories: categories1 categories2
 permalink: huaiyang
+tags: tag1 tag2
 ---
 
 page.date={{page.date}}<br/>
