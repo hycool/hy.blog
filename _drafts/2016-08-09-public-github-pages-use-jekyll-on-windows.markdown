@@ -50,7 +50,7 @@ gem install jekyll
 然而，实际上第三步是非必要的，笔者建议使用[Bundler](http://bundler.io/)安装并运行Jekyll！
 如果你安装第三步安装了Jekyll，然后安装官方文档的命令执行:
 
-{% highlight shell linenos %}
+{% highlight ruby linenos %}
 jekyll build
 jekyll serve
 {% endhighlight %}
