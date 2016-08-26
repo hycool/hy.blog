@@ -51,8 +51,7 @@ gem install jekyll
 如果你安装第三步安装了Jekyll，然后安装官方文档的命令执行:
 
 {% highlight shell %}
-jekyll build
-jekyll serve
+gem install jekyll
 {% endhighlight %}
 
 你会发现许多编译错误，要一个个解决并不容易。当然作为兴趣，也鼓励大家去尝试碰碰Ruby的坑。这里不再占用篇幅。
