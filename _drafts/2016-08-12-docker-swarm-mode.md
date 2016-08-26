@@ -1,5 +1,14 @@
-# Docker Swarm mode 集群的搭建和使用 #
-## 准备 ##
+---
+layout: post
+title:  "Docker Swarm mode 集群的搭建和使用"
+date:   2016-08-12 
+categories: docker swarm
+---
+
+
+# Docker Swarm mode 集群的搭建和使用 
+
+## 准备 
 
 - Docker 1.12.0 及以上 （确保用于搭建Swarm集群的Docker版本一致）
 - 三个及以上服务器节点
