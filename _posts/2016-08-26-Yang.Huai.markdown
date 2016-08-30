@@ -2,10 +2,12 @@
 title:  "Yang.Huai's Test Model"
 date:   2016-08-26
 author: hycool
-<!--category: category-->
-<!--categories: categories1 categories2-->
+comments: true
 permalink: huaiyang
-<!--tags: tag1 tag2-->
+header:
+  overlay_image: 1.png
+  overlay_filter: rgba(255, 0, 0, 0.5)
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
 page.date={{page.date}}<br/>
@@ -13,4 +15,7 @@ page.categories={{page.categories}}<br/>
 page.category={{page.category}}<br/>
 page.permalink={{page.permalink }}<br/>
 page.author={{page.author}}<br/>
+page.header.image={{page.header.image}}<br/>
+page.header.caption={{page.header.caption}}<br/>
+page.comments={{page.comments}}<br/>
 

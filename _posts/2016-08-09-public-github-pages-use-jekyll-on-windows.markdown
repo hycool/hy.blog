@@ -2,7 +2,10 @@
 title:  "Windows环境下使用Jekyll发布GitHub Pages"
 date:   2016-08-09
 author: hycool
-<!--categories: github page jekyll windows-->
+header:
+  overlay_image: 1.png
+  <!--overlay_filter: rgba(255, 0, 0, 0.5)-->
+  overlay_filter: 0.5
 ---
 
 ## 前言

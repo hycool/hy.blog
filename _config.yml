@@ -15,11 +15,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
-      share: false
-      related: false
-
-
+      comments: true
+      share: true
+      related: true
 # Site Settings
 locale                   : "en"
 title                    : "SHEPHERD"
@@ -30,12 +28,12 @@ baseurl                  : "/hy.blog" # the subpath of your site, e.g. /blog
 url                      : "https://hycool.github.io" # the base hostname & protocol for your site
 #baseurl                  : "" # the subpath of your site, e.g. /blog
 #url                      : "" # the base hostname & protocol for your site
-repository               : "ddupward/blog" # GitHub username/repo-name
+repository               : "hycool/hy.blog" # GitHub username/repo-name
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -47,7 +45,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : # "master", "gh-pages"
+  branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
