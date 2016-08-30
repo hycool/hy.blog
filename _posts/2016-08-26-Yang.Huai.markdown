@@ -3,7 +3,6 @@ title:  "Yang.Huai's Test Model"
 date:   2016-08-26
 author: hycool
 comments: true
-permalink: huaiyang
 header:
   overlay_image: 1.png
   overlay_filter: rgba(255, 0, 0, 0.5)
@@ -18,4 +17,6 @@ page.author={{page.author}}<br/>
 page.header.image={{page.header.image}}<br/>
 page.header.caption={{page.header.caption}}<br/>
 page.comments={{page.comments}}<br/>
+page.slug={{page.slug}}<br/>
+site.data.comments={{site.data.comments jsonify}}<br/>
 
