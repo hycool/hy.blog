@@ -24,10 +24,10 @@ title                    : "SHEPHERD"
 title_separator          : "-"
 name                     : "BEI NanJing"
 description              : "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
-baseurl                  : "/hy.blog" # the subpath of your site, e.g. /blog
-url                      : "https://hycool.github.io" # the base hostname & protocol for your site
-#baseurl                  : "" # the subpath of your site, e.g. /blog
-#url                      : "" # the base hostname & protocol for your site
+#baseurl                  : "/hy.blog" # the subpath of your site, e.g. /blog
+#url                      : "https://hycool.github.io" # the base hostname & protocol for your site
+baseurl                  : "" # the subpath of your site, e.g. /blog
+url                      : "" # the base hostname & protocol for your site
 repository               : "hycool/hy.blog" # GitHub username/repo-name
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -186,7 +186,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
